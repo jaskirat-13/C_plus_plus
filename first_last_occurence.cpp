@@ -56,5 +56,8 @@ int main(){
     
     int last = lastOcc(arr, n, key);
     cout<< "Last occurence of element is at " << last << endl;
+
+    int total = (last - first) + 1;
+    cout<< "Total number of occurences : " << total << endl;
     return 0;
 }
